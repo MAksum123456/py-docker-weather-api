@@ -9,4 +9,4 @@ COPY requirements.txt .
 RUN pip install -r requirements.txt
 
 COPY ./app .
-CMD ["python", "main.py", "runserver", "0.0.0.0:8000"]
+CMD ["python", "main.py"]
